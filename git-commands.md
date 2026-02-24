@@ -73,3 +73,13 @@ git rm old_notes.md
 This command renames or moves a file while preserving its entire history, automatically staging the change for your next commit.
 Example:
 git mv readme.md README.md
+
+### git show
+Displays the detailed contents and metadata of a specific Git object, such as a commit, tag, or file version.
+Example:
+git show HEAD:README.md
+
+### git restore
+Reverts files in your working directory or staging area to their last committed state.
+Example:
+If you made a mistake while editing README.md in nano and want to discard those unsaved changes: git restore README.md
