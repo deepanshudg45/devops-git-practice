@@ -59,3 +59,17 @@ git log --oneline
 Shows unstaged changes
 Example:
 git diff
+
+---
+
+## Added Commands
+
+### git rm
+This command removes a file from both your computer's folders and the Git "index" (the list of tracked files) in one step.
+Example:
+git rm old_notes.md
+
+### git mv
+This command renames or moves a file while preserving its entire history, automatically staging the change for your next commit.
+Example:
+git mv readme.md README.md
