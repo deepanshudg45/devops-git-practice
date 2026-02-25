@@ -26,3 +26,11 @@ git commit -m "Fix typo in profile section"
 Commit:
 git add .
 git commit -m "Add validation for profile form"
+
+
+Regular Merge Commits -
+
+Commit1:
+git add .
+git commit -m "Add settings page structure"
+
