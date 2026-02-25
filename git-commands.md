@@ -275,3 +275,56 @@ git stash apply stash@{1}
 Applies specific commit onto current branch.
 Example:
 git cherry-pick a1b2c3d
+
+---
+
+---
+
+# Undo & Recovery Commands – Day 25
+
+## git reset --soft HEAD~1
+Moves HEAD back one commit but keeps changes staged.
+Example:
+git reset --soft HEAD~1
+
+---
+
+## git reset --mixed HEAD~1
+Moves HEAD back and unstages changes (default mode).
+Example:
+git reset --mixed HEAD~1
+
+---
+
+## git reset --hard HEAD~1
+Moves HEAD back and deletes changes from working directory.
+Example:
+git reset --hard HEAD~1
+
+---
+
+## git revert <commit-hash>
+Creates a new commit that undoes a specific commit.
+Example:
+git revert a1b2c3d
+
+---
+
+## git revert --continue
+Continues revert after resolving conflicts.
+Example:
+git revert --continue
+
+---
+
+## git revert --abort
+Cancels an in-progress revert.
+Example:
+git revert --abort
+
+---
+
+## git reflog
+Shows history of HEAD movements (safety recovery tool).
+Example:
+git reflog
