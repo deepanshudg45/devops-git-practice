@@ -79,6 +79,7 @@ Displays the detailed contents and metadata of a specific Git object, such as a 
 Example:
 git show HEAD:README.md
 
+---
 ### git restore
 Reverts files in your working directory or staging area to their last committed state.
 Example:
