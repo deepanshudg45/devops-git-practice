@@ -6,3 +6,23 @@
 
 ### Signup feature placeholder
 
+
+
+
+
+
+
+
+
+(avoiding conflicts)
+
+Trying squash merge -
+Add profile section sctructure
+
+Commit2:
+git add .
+git commit -m "Fix typo in profile section"
+
+Commit:
+git add .
+git commit -m "Add validation for profile form"
