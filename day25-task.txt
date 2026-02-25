@@ -41,3 +41,6 @@ git commit -m "Add settings validation"
 Commit3:
 git add .
 git commit -m "Fix settings formatting"
+
+## Stash Example
+Temporary change - work in progress
