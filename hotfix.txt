@@ -2,3 +2,5 @@ Commit 1:
 
 git add .
 git commit -m "Hotfix: correct API endpoint"
+
+git reset A
