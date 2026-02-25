@@ -85,3 +85,112 @@ Example:
 If you made a mistake while editing README.md in nano and want to discard those unsaved changes: git restore README.md
 
 ---
+
+## Branching Commands
+
+### git branch
+Lists all local branches.
+Example:
+git branch
+
+---
+
+### git branch <branch-name>
+Creates a new branch.
+Example:
+git branch feature-1
+
+---
+
+### git switch <branch-name>
+Switches to an existing branch.
+Example:
+git switch feature-1
+
+---
+
+### git switch -c <branch-name>
+Creates and switches to a new branch.
+Example:
+git switch -c feature-2
+
+---
+
+### git checkout <branch-name>
+Old command used to switch branches.
+Example:
+git checkout feature-1
+
+---
+
+### git checkout -b <branch-name>
+Old method to create and switch branch.
+Example:
+git checkout -b feature-2
+
+---
+
+### git branch -d <branch-name>
+Deletes a branch safely.
+Example:
+git branch -d feature-2
+
+---
+
+### git branch -D <branch-name>
+Force deletes a branch.
+Example:
+git branch -D feature-2
+
+---
+
+## Remote Commands
+
+### git remote -v
+Shows configured remote repositories.
+Example:
+git remote -v
+
+---
+
+### git remote add origin <repo-url>
+Adds a remote repository.
+Example:
+git remote add origin https://github.com/user/repo.git
+
+---
+
+### git push -u origin <branch>
+Pushes branch to remote and sets upstream tracking.
+Example:
+git push -u origin feature-1
+
+---
+
+### git pull origin <branch>
+Pulls changes from remote branch.
+Example:
+git pull origin main
+
+---
+
+### git fetch
+Downloads changes from remote without merging.
+Example:
+git fetch
+
+---
+
+## Clone & Fork Related
+
+### git clone <repo-url>
+Creates a local copy of a repository.
+Example:
+git clone https://github.com/user/repo.git
+
+---
+
+### git remote add upstream <repo-url>
+Adds original repository as upstream.
+Example:
+git remote add upstream https://github.com/original/repo.git
