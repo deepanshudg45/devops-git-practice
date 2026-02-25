@@ -83,3 +83,5 @@ git show HEAD:README.md
 Reverts files in your working directory or staging area to their last committed state.
 Example:
 If you made a mistake while editing README.md in nano and want to discard those unsaved changes: git restore README.md
+
+---
