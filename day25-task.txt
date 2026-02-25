@@ -37,3 +37,7 @@ git commit -m "Add settings page structure"
 Commit2:
 git add .
 git commit -m "Add settings validation"
+
+Commit3:
+git add .
+git commit -m "Fix settings formatting"
