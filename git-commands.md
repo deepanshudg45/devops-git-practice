@@ -194,3 +194,84 @@ git clone https://github.com/user/repo.git
 Adds original repository as upstream.
 Example:
 git remote add upstream https://github.com/original/repo.git
+
+---
+
+---
+
+# Advanced Git – Day 24 Commands
+
+## git merge <branch>
+Merges specified branch into current branch.
+Example:
+git merge feature-login
+
+---
+
+## git merge --squash <branch>
+Combines all commits into one before committing.
+Example:
+git merge --squash feature-profile
+
+---
+
+## git rebase <branch>
+Replays commits on top of another branch.
+Example:
+git rebase main
+
+---
+
+## git rebase --continue
+Continues rebase after resolving conflicts.
+Example:
+git rebase --continue
+
+---
+
+## git log --oneline --graph --all
+Shows commit graph visually.
+Example:
+git log --oneline --graph --all
+
+---
+
+## git stash
+Temporarily saves uncommitted changes.
+Example:
+git stash
+
+---
+
+## git stash push -m "message"
+Stashes changes with description.
+Example:
+git stash push -m "WIP changes"
+
+---
+
+## git stash list
+Lists all stashes.
+Example:
+git stash list
+
+---
+
+## git stash pop
+Applies and removes latest stash.
+Example:
+git stash pop
+
+---
+
+## git stash apply <stash>
+Applies specific stash without deleting it.
+Example:
+git stash apply stash@{1}
+
+---
+
+## git cherry-pick <commit-hash>
+Applies specific commit onto current branch.
+Example:
+git cherry-pick a1b2c3d
